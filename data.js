@@ -67,130 +67,162 @@
             },
 
             "projects": [
-                {
-                    "name": "Batch Processing of Financial Transactions",
-                    "duration": "Mar 2025 - May 2025",
-                    "company": "Masaryk University Brno",
-                    "description": "Batch Processing System for financial transactions using Spring Boot and Spring Batch. Processes large volumes, validates transactions, detects fraud, and generates reports.",
-                    "features": [
-                        "Efficient batch processing of large financial datasets",
-                        "Validation engine with business rules",
-                        "Fraud detection with scoring mechanisms",
-                        "Automated reporting and email notifications",
-                        "RESTful API with Swagger documentation"
-                    ],
-                    "technologies": ["Spring Boot 3.x", "Spring Batch", "Spring Data JPA", "MySQL", "H2", "JUnit", "Swagger"],
-                    "github": "https://github.com/abdulawr/Batch-Processing-of-Financial-Transactions"
-                },
-                {
-                    "name": "Resume Enhancer",
-                    "duration": "Jan 2025 - Mar 2025",
-                    "company": "Masaryk University Brno",
-                    "description": "AI-powered Spring Boot web application that enhances resumes using DeepSeek AI and optimizes them for ATS systems.",
-                    "features": [
-                        "AI-powered resume analysis and enhancement",
-                        "Job description matching and optimization",
-                        "Multiple file format support (PDF, DOC, DOCX, TXT)",
-                        "Professional PDF generation",
-                        "ATS optimization",
-                        "Drag-and-drop interface"
-                    ],
-                    "technologies": ["Java 17", "Spring Boot", "DeepSeek AI", "Apache Tika", "PDFBox", "iText7", "Bootstrap 5"],
-                    "github": "https://github.com/abdulawr/Resume-Enhancement-System"
-                },
-                {
-                    "name": "Real-Time Stock Trading Dashboard",
-                    "duration": "Feb 2025",
-                    "company": "Masaryk University Brno",
-                    "description": "Real-time stock trading dashboard with WebSocket communication, live data streaming, and interactive visualizations.",
-                    "features": [
-                        "Real-time WebSocket updates for stock tracking",
-                        "Simulated stock data with realistic price movements",
-                        "Interactive charts with Chart.js",
-                        "Responsive design with Glassmorphism effects",
-                        "Error handling & automatic reconnection",
-                        "Alpha Vantage API integration"
-                    ],
-                    "technologies": ["Java 17", "Spring Boot", "WebFlux", "WebSockets", "Chart.js", "Thymeleaf", "Alpha Vantage API"],
-                    "github": "https://github.com/abdulawr/Real-Time-Stock-Trading-Dashboard"
-                },
-                {
-                    "name": "Clemata - Mobile & Web Application",
-                    "duration": "May 2021 - Jul 2024",
-                    "company": "WAYIO Solution",
-                    "description": "Cross-platform app for cleaning companies with communication system and operational management.",
-                    "features": [
-                        "Task time registration and cleaning calendar",
-                        "Real-time messaging with inspectors",
-                        "Secure document & image sharing",
-                        "In-app ordering of cleaning products",
-                        "Multilingual support (Danish & English)"
-                    ],
-                    "technologies": ["React Native", "Laravel", "MySQL", "Google Maps", "JWT", "Selenium"],
-                    "metrics": "Reduced administrative overhead by ~20%",
-                    "website": "https://clemata.dk/"
-                },
-                {
-                    "name": "Veezlo - Location-Based Advertising",
-                    "duration": "Feb 2018 - Jan 2019",
-                    "company": "Veezlo Inc",
-                    "description": "Uber-like platform that transforms vehicles into mobile billboards with real-time analytics and location tracking.",
-                    "features": [
-                        "Dynamic location-based advertising",
-                        "Real-time campaign analytics",
-                        "Ambassador (driver) management system",
-                        "Campaign performance metrics",
-                        "Geographic targeting capabilities"
-                    ],
-                    "technologies": ["React Native", "Spring Boot", "MongoDB", "Google Maps", "Firebase", "AWS"],
-                    "metrics": "Boosted ad visibility by ~25%"
-                },
-                {
-                    "name": "CondoApp - Community Management",
-                    "duration": "Ongoing",
-                    "company": "I-TEK",
-                    "description": "Scalable society management solution with WhatsApp-like features for community engagement.",
-                    "features": [
-                        "Real-time chat and notifications",
-                        "Event management system",
-                        "Community bulletin board",
-                        "Resident directory",
-                        "Maintenance request tracking"
-                    ],
-                    "technologies": ["NextJS", "React", "React Native", "MongoDB", "FCM", "Firebase", "Tailwind CSS", "Spring Boot"],
-                    "metrics": "Enhanced community engagement by ~15%",
-                    "website": "https://commectin.ca/"
-                },
-                {
-                    "name": "SMP-Direct - ERP System",
-                    "duration": "Aug 2023 - Jul 2024",
-                    "company": "WAYIO Solution",
-                    "description": "Complete ERP solution for customer and supply chain management across web and mobile platforms.",
-                    "features": [
-                        "Customer relationship management",
-                        "Supply chain optimization",
-                        "Inventory management",
-                        "Financial reporting",
-                        "Mobile and web synchronization"
-                    ],
-                    "technologies": ["React", "MongoDB", "React Native", "Flask", "Firebase", "Azure"],
-                    "metrics": "Improved supply chain efficiency by ~15%"
-                },
-                {
-                    "name": "Gensols - Review Analytics",
-                    "duration": "2020-2021",
-                    "company": "I-TEK",
-                    "description": "System that transforms Google Reviews into actionable business insights with AI-driven visual reports.",
-                    "features": [
-                        "Google Reviews data extraction",
-                        "AI-powered sentiment analysis",
-                        "Visual reporting dashboard",
-                        "Business intelligence insights",
-                        "Automated report generation"
-                    ],
-                    "technologies": ["Flask", "Next.js", "Python", "Google Business Profile API", "Google Gemini", "AWS", "ChatGPT"]
-                }
-            ],
+                            {
+                                "name": "Batch Processing of Financial Transactions",
+                                "duration": "Mar 2025 - May 2025",
+                                "company": "Masaryk University Brno",
+                                "description": "Batch Processing System for financial transactions using Spring Boot and Spring Batch. Processes large volumes, validates transactions, detects fraud, and generates reports.",
+                                "features": [
+                                    "Efficient batch processing of large financial datasets",
+                                    "Validation engine with business rules",
+                                    "Fraud detection with scoring mechanisms",
+                                    "Automated reporting and email notifications",
+                                    "RESTful API with Swagger documentation"
+                                ],
+                                "technologies": ["Spring Boot 3.x", "Spring Batch", "Spring Data JPA", "MySQL", "H2", "JUnit", "JavaMailSender"],
+                                "github": "https://github.com/abdulawr/Batch-Processing-of-Financial-Transactions"
+                            },
+                            {
+                                "name": "Resume Enhancer",
+                                "duration": "Jan 2025 - Mar 2025",
+                                "company": "Masaryk University Brno",
+                                "description": "AI-powered Spring Boot web application that enhances resumes using DeepSeek AI and optimizes them for ATS systems.",
+                                "features": [
+                                    "AI-powered resume analysis and enhancement",
+                                    "Job description matching and optimization",
+                                    "Multiple file format support (PDF, DOC, DOCX, TXT)",
+                                    "Professional PDF generation",
+                                    "ATS optimization",
+                                    "Drag-and-drop interface",
+                                    "Test mode for development"
+                                ],
+                                "technologies": ["Java 17", "Spring Boot 2.7+", "DeepSeek AI", "Apache Tika", "PDFBox", "iText7", "HTML5", "CSS3", "Bootstrap 5", "JavaScript", "Maven"],
+                                "github": "https://github.com/abdulawr/Resume-Enhancement-System"
+                            },
+                            {
+                                "name": "Real-Time Stock Trading Dashboard",
+                                "duration": "Feb 2025 - Feb 2025",
+                                "company": "Masaryk University Brno",
+                                "description": "Real-time stock trading dashboard with WebSocket communication, live data streaming, and interactive visualizations.",
+                                "features": [
+                                    "Real-time WebSocket updates for stock tracking",
+                                    "Simulated stock data with realistic price movements",
+                                    "Interactive charts with Chart.js",
+                                    "Responsive design with Glassmorphism effects",
+                                    "Error handling & automatic reconnection",
+                                    "Alpha Vantage API integration"
+                                ],
+                                "technologies": ["Java 17", "Spring Boot", "WebFlux", "WebSockets", "Chart.js", "Thymeleaf", "Alpha Vantage API", "H2", "Maven"],
+                                "github": "https://github.com/abdulawr/Real-Time-Stock-Trading-Dashboard"
+                            },
+                            {
+                                "name": "CondoApp",
+                                "duration": "2023 - Ongoing (2025)",
+                                "company": "I-Tek",
+                                "description": "Scalable society management solution with chat, notifications, and event management features, boosting community engagement.",
+                                "features": [
+                                    "Real-time chat and notifications",
+                                    "Event management system",
+                                    "Community bulletin board",
+                                    "Resident directory",
+                                    "Maintenance request tracking"
+                                ],
+                                "technologies": ["Next.js", "React", "React Native", "MongoDB", "FCM", "Node.js", "Firebase", "Tailwind CSS", "Spring Boot", "JWT"],
+                                "metrics": "Enhanced community engagement by ~15%",
+                                "website": "https://commectin.ca/"
+                            },
+                            {
+                                "name": "Pro Assessors",
+                                "duration": "2022 - Ongoing (2025)",
+                                "company": "I-Tek",
+                                "description": "Web platform connecting clients with legal/medical professionals, reducing reporting turnaround time.",
+                                "features": [
+                                    "Client-professional connection platform",
+                                    "Automated reporting system",
+                                    "Real-time communication",
+                                    "Secure data handling",
+                                    "User-friendly dashboard"
+                                ],
+                                "technologies": ["CSS", "jQuery", "Google Auth", "AWS", "FCM", "C# (ASP.NET, .NET)", "PHP (Laravel)", "HTML", "JavaScript", "Firebase"],
+                                "metrics": "Reduced reporting turnaround time by ~18%"
+                            },
+                            {
+                                "name": "Gensols",
+                                "duration": "2020 - Ongoing (2025)",
+                                "company": "I-Tek",
+                                "description": "System that transforms Google Reviews into actionable business insights with AI-driven visual reports.",
+                                "features": [
+                                    "Google Reviews data extraction",
+                                    "AI-powered sentiment analysis",
+                                    "Visual reporting dashboard",
+                                    "Business intelligence insights",
+                                    "Automated report generation"
+                                ],
+                                "technologies": ["Flask", "Next.js", "Python", "Google Business Profile API", "Google Gemini", "AWS", "ChatGPT", "Figma", "Google Auth"],
+                                "metrics": "Improved business decision-making"
+                            },
+                            {
+                                "name": "Clemata — Mobile & Web",
+                                "duration": "May 2021 - Jul 2024",
+                                "company": "WAYIO Solution",
+                                "description": "Cross-platform app for cleaning companies to streamline operations and communication.",
+                                "features": [
+                                    "Task time registration and cleaning calendar",
+                                    "Real-time messaging with inspectors",
+                                    "Secure document & image sharing",
+                                    "In-app ordering of cleaning products",
+                                    "Multilingual support (Danish & English)"
+                                ],
+                                "technologies": ["React", "React Native", "Laravel", "C# (ASP.NET, .NET)", "Google Maps", "Selenium", "HTML", "PHP", "JWT"],
+                                "metrics": "Reduced administrative overhead by ~20%",
+                                "website": "https://clemata.dk/"
+                            },
+                            {
+                                "name": "SMP-Direct — Mobile & Web App",
+                                "duration": "Aug 2023 - Jul 2024",
+                                "company": "WAYIO Solution",
+                                "description": "Complete ERP solution for customer and supply chain management across web and mobile platforms.",
+                                "features": [
+                                    "Customer relationship management",
+                                    "Supply chain optimization",
+                                    "Inventory management",
+                                    "Financial reporting",
+                                    "Mobile and web synchronization"
+                                ],
+                                "technologies": ["React", "MongoDB", "React Native", "Python (Flask)", "Firebase", "Microsoft Azure", "JWT"],
+                                "metrics": "Improved supply chain efficiency by ~15%"
+                            },
+                            {
+                                "name": "DBS Instalment LTD",
+                                "duration": "2022 - 2023",
+                                "company": "Unknown",
+                                "description": "ERP and admin management system (web + Android app) for financial and operational automation.",
+                                "features": [
+                                    "Financial automation",
+                                    "Operational management",
+                                    "User dashboard",
+                                    "Mobile and web integration",
+                                    "Secure data processing"
+                                ],
+                                "technologies": ["jQuery", "Bootstrap", "MySQL", "Laravel", "Android Native", "FCM", "SMTP", "C# (ASP.NET, .NET)", "JavaScript", "PHP"],
+                                "metrics": "Streamlined financial and operational processes"
+                            },
+                            {
+                                "name": "Veezlo",
+                                "duration": "Feb 2018 - Jan 2019",
+                                "company": "Unknown",
+                                "description": "Location-based dynamic advertising platform converting cars into moving billboards with campaign analytics.",
+                                "features": [
+                                    "Dynamic location-based advertising",
+                                    "Real-time campaign analytics",
+                                    "Ambassador (driver) management system",
+                                    "Campaign performance metrics",
+                                    "Geographic targeting capabilities"
+                                ],
+                                "technologies": ["Bootstrap", "MySQL", ".NET Framework", "JWT"],
+                                "metrics": "Enhanced advertising reach"
+                            }
+                        ],
 
             "certifications": [
                 {
