@@ -3,51 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Abdul Basit - HackTerminal Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Abdul Basit - Terminal Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="terminal-container">
         <div class="terminal-header">
             <div class="terminal-controls">
-                <div class="terminal-buttons">
-                    <div class="btn btn-red"></div>
-                    <div class="btn btn-yellow"></div>
-                    <div class="btn btn-green"></div>
+                <div class="control close"></div>
+                <div class="control minimize"></div>
+                <div class="control maximize"></div>
+            </div>
+            <div class="terminal-title">abdul@basit:~$ portfolio</div>
+        </div>
+        
+        <div class="terminal-body" id="terminal">
+            <div class="output" id="output">
+                <div class="welcome-message">
+                    <pre class="ascii-art">
+    ╔═══════════════════════════════════════════════════════════════╗
+    ║                     ⚡ Welcome to Abdul Basit's ⚡           ║
+    ║                    🚀 Terminal Portfolio v3.0 🚀            ║
+    ║                                                               ║
+    ║    💻 Software Engineer & Full-Stack Developer 💻           ║
+    ║    📍 Brno, Czech Republic                                   ║
+    ║                                                               ║
+    ║    ██████████████████████████████████████████████████████      ║
+    ║    ██  ACCESSING NEURAL INTERFACE... COMPLETE  ██████████    ║
+    ║    ██████████████████████████████████████████████████████      ║
+    ╚═══════════════════════════════════════════════════════════════╝
+                    </pre>
+                    <p class="intro-text">Type <span class="highlight">'help'</span> to see available commands or <span class="highlight">'about'</span> to get started!</p>
                 </div>
-                <div class="terminal-title">root@hackterm:/portfolio#</div>
             </div>
-            <div class="terminal-status">
-                <div class="status-dot"></div>
-                <span>SECURE CONNECTION</span>
+            
+            <div class="input-line">
+                <span class="prompt">guest@abdul-portfolio:~$ </span>
+                <input type="text" id="commandInput" class="command-input" autocomplete="off" spellcheck="false">
+                <span class="cursor"></span>
             </div>
         </div>
-        <div class="terminal-body" id="terminal-body">
-            <div class="output-line ascii-art">
-╔═══════════════════════════════════════════════════════════════════════════╗
-║  ██░ ██  ▄▄▄       ▄████▄   ██ ▄█▀▄▄▄█████▓▓█████  ██▀███   ███▄ ▄███▓   ║
-║ ▓██░ ██▒▒████▄    ▒██▀ ▀█   ██▄█▒ ▓  ██▒ ▓▒▓█   ▀ ▓██ ▒ ██▒▓██▒▀█▀ ██▒   ║
-║ ▒██▀▀██░▒██  ▀█▄  ▒▓█    ▄ ▓███▄░ ▒ ▓██░ ▒░▒███   ▓██ ░▄█ ▒▓██    ▓██░   ║
-║ ░▓█ ░██ ░██▄▄▄▄██ ▒▓▓▄ ▄██▒▓██ █▄ ░ ▓██▓ ░ ▒▓█  ▄ ▒██▀▀█▄  ▒██    ▒██    ║
-║ ░▓█▒░██▓ ▓█   ▓██▒▒ ▓███▀ ░▒██▒ █▄  ▒██▒ ░ ░▒████▒░██▓ ▒██▒▒██▒   ░██▒   ║
-║  ▒ ░░▒░▒ ▒▒   ▓▒█░░ ░▒ ▒  ░▒ ▒▒ ▓▒  ▒ ░░   ░░ ▒░ ░░ ▒▓ ░▒▓░░ ▒░   ░  ░   ║
-║  ▒ ░▒░ ░  ▒   ▒▒ ░  ░  ▒   ░ ░▒ ▒░    ░     ░ ░  ░  ░▒ ░ ▒░░  ░      ░   ║
-║  ░  ░░ ░  ░   ▒   ░        ░ ░░ ░   ░         ░     ░░   ░ ░      ░      ║
-║  ░  ░  ░      ░  ░░ ░      ░  ░               ░  ░   ░            ░      ║
-║                   ░                                                      ║
-║            [ELITE SOFTWARE ENGINEER] - [MASTER'S @ MASARYK UNIVERSITY]   ║
-╚═══════════════════════════════════════════════════════════════════════════╝
-            </div>
-            <div class="output-line welcome-text typing-effect">[92m>> HACK TERMINAL INITIALIZED - PORTFOLIO ACCESS GRANTED[0m</div>
-            <div class="output-line info">[96mSystem ready. Type '[93mhelp[96m' to access command database.[0m</div>
-            <div class="output-line"></div>
-        </div>
-        <div class="autocomplete-suggestions" id="suggestions"></div>
-        <div class="input-container">
-            <span class="prompt">root@hackterm:~#</span>
-            <input type="text" class="terminal-input" id="terminal-input" autofocus placeholder="Enter command...">
-            <span class="cursor" id="cursor"></span>
-        </div>
+    </div>
+
+    <div class="background-effects">
+        <div class="matrix-rain"></div>
+        <div class="neural-network"></div>
+        <div class="floating-particles"></div>
+        <div class="scan-lines"></div>
     </div>
 
     <script src="script.js"></script>
