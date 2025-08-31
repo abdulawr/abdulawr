@@ -797,6 +797,37 @@ body {
     transform: translateX(3px);
 }
 
+/* --- Matrix Rain Canvas --- */
+#matrix-rain-canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+    pointer-events: none;
+    opacity: 0.7;
+    filter: blur(0.5px) brightness(1.2);
+    mix-blend-mode: lighten;
+    transition: opacity 0.5s;
+}
+
+/* --- Enhanced Rain Glow --- */
+.matrix-rain-glow {
+    filter: drop-shadow(0 0 8px var(--matrix-green))
+            drop-shadow(0 0 16px var(--neon-cyan));
+}
+
+/* --- Responsive Canvas --- */
+@media (max-width: 768px) {
+    #matrix-rain-canvas {
+        width: 100vw;
+        height: 100vh;
+        opacity: 0.5;
+        filter: blur(1px);
+    }
+}
+
 /* Enhanced Scrollbar */
 .terminal-body::-webkit-scrollbar {
     width: 8px;
