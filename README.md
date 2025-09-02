@@ -1,137 +1,123 @@
-# Terminal Portfolio - Abdul Basit
+# 👨‍💻 Abdul Basit's GitHub Profile
 
-A modern, interactive terminal-style portfolio website built with vanilla HTML, CSS, and JavaScript. Features a sleek cyberpunk aesthetic with animated backgrounds, floating particles, and a fully functional command-line interface.
+Welcome to my GitHub profile! I’m **Abdul Basit**, a **Software Engineer** with a passion for creating impactful, scalable, and user-friendly software solutions. I have experience in both **front-end** and **back-end** development, as well as **cloud services**, **CI/CD**, and **Agile** methodologies.
 
-## Features
-
-- **Interactive Terminal Interface**: Navigate through portfolio content using terminal commands
-- **Animated Background**: Dynamic grid overlay and floating particles for visual appeal
-- **Responsive Design**: Works seamlessly on desktop, tablet, and mobile devices
-- **Command History**: Navigate previous commands using arrow keys
-- **Smooth Animations**: Professional transitions and hover effects
-- **Modern Design**: Glassmorphism effects with cyberpunk color scheme
-
-## Available Commands
-
-| Command | Description |
-|---------|-------------|
-| `help` | Display all available commands |
-| `about` | Show personal information and summary |
-| `experience` | View professional work history |
-| `education` | Display academic background |
-| `skills` | List technical skills and expertise |
-| `projects` | Browse portfolio projects |
-| `certifications` | Show professional certifications |
-| `awards` | Display awards and recognition |
-| `contact` | Get contact information |
-| `social` | View social media links |
-| `clear` | Clear terminal output |
-
-## Technologies Used
-
-- **Frontend**: HTML5, CSS3, JavaScript (ES6+)
-- **Fonts**: Inter & JetBrains Mono (Google Fonts)
-- **Design**: Custom CSS with CSS Grid and Flexbox
-- **Animations**: CSS keyframes and transitions
-- **Responsive**: CSS media queries
-
-## File Structure
-
-```
-terminal-portfolio/
-├── index.html              # Main portfolio file
-├── portfolio-data.json     # Portfolio data (optional)
-└── README.md              # This file
-```
-
-## Quick Start
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/your-username/terminal-portfolio.git](https://github.com/abdulawr/abdulawr.git)
-   cd terminal-portfolio
-   ```
-
-2. **Open in browser**
-   ```bash
-   # Simply open index.html in your web browser
-   open index.html
-   # or
-   python -m http.server 8000  # For local server
-   ```
-
-3. **Start exploring**
-   - Type `help` to see all available commands
-   - Use arrow keys to navigate command history
-   - Click anywhere to focus the terminal input
-
-## Customization
-
-### Personal Information
-Edit the `portfolioData` object in the JavaScript section to update:
-- Personal details (name, title, location)
-- Work experience and achievements
-- Education background
-- Skills and technologies
-- Project portfolio
-- Certifications and awards
-- Contact information
-
-### Styling
-Modify CSS custom properties in `:root` to change:
-```css
-:root {
-    --primary: #00DC82;        /* Primary accent color */
-    --secondary: #00A8E8;      /* Secondary accent color */
-    --bg-primary: #0A0E27;     /* Main background */
-    --bg-secondary: #151A3A;   /* Secondary background */
-    /* ... other variables */
-}
-```
-
-### Adding New Commands
-1. Add the command to the `commands` object in the Terminal constructor
-2. Create a corresponding method (e.g., `showNewSection()`)
-3. Update the `getCommandDescription()` method
-
-## Browser Compatibility
-
-- Chrome 90+
-- Firefox 88+
-- Safari 14+
-- Edge 90+
-
-## Performance Features
-
-- Optimized animations with `transform` and `opacity`
-- Efficient particle system with CSS animations
-- Smooth scrolling and responsive interactions
-- Minimal JavaScript for fast loading
-
-## Live Demo
-
-Visit the live portfolio: https://abdulawr.github.io/abdulawr/
-
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/new-feature`)
-3. Commit your changes (`git commit -am 'Add new feature'`)
-4. Push to the branch (`git push origin feature/new-feature`)
-5. Create a Pull Request
-
-## License
-
-This project is open source and available under the [MIT License](LICENSE).
-
-## Contact
-
-**Abdul Basit**
-- Email: ab.basit.dak@gmail.com
-- LinkedIn: [dev-abasit](https://www.linkedin.com/in/dev-abasit)
-- GitHub: [abdulawr](https://github.com/abdulawr)
-- Location: Brno, Czech Republic
+As a **Gold Medalist** in Software Engineering and a current **Master’s student** at **Masaryk University**, I’m always seeking the next opportunity to innovate and push the boundaries of technology. 
 
 ---
 
-Built with ❤️ by Abdul Basit | Terminal Portfolio v3.0.1
+## 📋 Professional Summary
+
+I specialize in building **scalable applications** with a strong foundation in **Java**, **C#**, **React**, **Python**, **PHP**, and **AWS**. With my diverse skill set and experience in various domains, I focus on solving real-world challenges through technology. 
+
+### 🔧 Key Skills:
+- **Languages**: JavaScript, TypeScript, PHP, Python, Java, Kotlin, C#, HTML, CSS
+- **Frameworks**: ReactJS, NextJS, React Native, Laravel, Flask, Spring Boot, ASP.NET
+- **Cloud & DevOps**: AWS, Azure, Firebase, GitHub Actions, GitLab CI/CD, Jenkins
+- **Databases & APIs**: MySQL, PostgreSQL, MongoDB, REST, GraphQL
+- **Other**: Statistical Analysis (R, Python), Technical Writing, Documentation, Team Collaboration
+
+---
+
+## 💼 Professional Experience
+
+### 💼 **Software Engineer** at **WAYIO Solution** (May 2021 – August 2024)
+- **Achievements**:
+  - Modernized legacy systems and boosted performance by **10%**.
+  - Developed scalable web and mobile apps using **React Native**, **Laravel**, **Java**, **MySQL**, and **MongoDB**.
+  - Automated testing with **Selenium**, **Appium**, and **Cypress** to maintain **85%+ test coverage**.
+  - Enhanced system performance testing with **JMeter**.
+  - Spearheaded CI/CD pipeline improvements using **GitHub**, **GitLab**, and **Jenkins**.
+
+### 💻 **Software Engineer (Part-Time, Remote)** at **I-TEK** (January 2019 – February 2021)
+- **Achievements**:
+  - Led full-stack development of apps like **CondoApp** and **Gensols**, enhancing UX by **15%**.
+  - Improved platform security by **20%** using scalable architecture and secure coding practices.
+  - Optimized **CI/CD pipelines** through **GitLab** & **GitHub Actions**.
+
+---
+
+## 🚀 Projects
+
+Here are some key projects that showcase my expertise in **full-stack development**, **cloud computing**, **AI integration**, and more:
+
+### 1. **[Batch Processing of Financial Transactions](https://github.com/abdulawr/Batch-Processing-of-Financial-Transactions)**
+   - **Technologies**: Spring Boot, Spring Batch, MySQL, Swagger UI
+   - **Description**: A batch processing system for handling large financial transactions, detecting fraud, and generating reports.
+   - **Key Features**:
+     - Batch processing with efficient data handling
+     - Fraud detection mechanisms
+     - Interactive API documentation with Swagger UI
+
+### 2. **[Resume Enhancer | Spring Boot Web Application](https://github.com/abdulawr/Resume-Enhancement-System)**
+   - **Technologies**: Java, Spring Boot, DeepSeek AI, PDFBox
+   - **Description**: AI-powered resume enhancement tool with job description matching, ATS optimization, and professional PDF generation.
+
+### 3. **[Real-Time Stock Trading Dashboard](https://github.com/abdulawr/Real-Time-Stock-Trading-Dashboard)**
+   - **Technologies**: Spring Boot, WebFlux, WebSockets, Alpha Vantage API
+   - **Description**: A live stock price tracking dashboard with interactive charts, powered by WebSocket and **Chart.js** for real-time data updates.
+
+### 4. **[Clemata — Mobile & Web Application](https://clemata.dk/)**
+   - **Technologies**: React, React Native, Laravel, Google Maps
+   - **Description**: A cross-platform app designed for cleaning companies, reducing operational overhead by **20%**.
+
+### 5. **[SMP-Direct — Mobile & Web ERP System](https://github.com/abdulawr/SMP-Direct)**
+   - **Technologies**: React, MongoDB, Firebase, React Native
+   - **Description**: Complete ERP solution for customer and supply chain management with integration across web and mobile platforms.
+
+---
+
+## 🎓 Education
+
+- **Master’s in Software Systems and Services Management**, *Masaryk University* (2024 – Present)
+- **Bachelor’s in Software Engineering**, *City University of Science and IT* (2017 – 2021) – **Gold Medalist**
+
+---
+
+## 📜 Certifications
+
+Here are some certifications that demonstrate my expertise in various areas:
+
+- **Oracle Java Foundations** (Oracle)
+- **Advanced Java – Spring & Hibernate** (LearnKartS via Coursera)
+- **JavaScript Essentials 1 & 2, Networking Basics, Python Essentials 1 & 2** (Cisco)
+- **Python for Data Science, R for Data Science, Docker Essentials** (IBM)
+- **Foundational C# with Microsoft** (freeCodeCamp)
+- **Software Testing and Validation** (University of Leeds via Coursera)
+- **Test Management in Software Testing** (Coursera Instructor Network)
+- **Agile with Atlassian Jira** (Atlassian via Coursera)
+
+---
+
+## 🌍 Contact Information
+
+- 📧 **Email**: [ab.basit.dak@gmail.com](mailto:ab.basit.dak@gmail.com)
+- 🔗 **LinkedIn**: [https://www.linkedin.com/in/dev-abasit](https://www.linkedin.com/in/dev-abasit)
+- 🌐 **GitHub**: [https://github.com/abdulawr](https://github.com/abdulawr)
+- 🌍 **Portfolio**: [https://abdulawr.github.io/abdulawr/](https://abdulawr.github.io/abdulawr/)
+
+---
+
+## 🌟 Additional Information
+
+- **Languages**: Fluent in **English**, Beginner in **Czech**.
+- **Awards**: **Gold Medalist (2021)**, **6x Employee of the Month** at WAYIO (2023-2024).
+- **Scholarship**: Fully Funded Merit-Based Scholarship (City University, 2017-2021).
+
+---
+
+## 🚀 Let's Collaborate!
+Feel free to check out my repositories, contribute to open-source projects, or reach out if you have any questions or collaboration opportunities.
+
+---
+
+### 🛠️ Technologies Used:
+![](https://img.shields.io/badge/JavaScript-%23F7DF1E?style=flat&logo=javascript&logoColor=white)
+![](https://img.shields.io/badge/Java-%23E34A86?style=flat&logo=java&logoColor=white)
+![](https://img.shields.io/badge/React-%2300d8ff?style=flat&logo=react&logoColor=white)
+![](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white)
+![](https://img.shields.io/badge/AWS-%23FF9900?style=flat&logo=amazonaws&logoColor=white)
+
+---
+
+### 🙌 Thank you for visiting my profile! Let’s connect, learn, and build something great together! 🚀
