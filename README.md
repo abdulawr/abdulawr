@@ -1,194 +1,130 @@
-# Abdul Basit | Full-Stack Software Engineer
+# 👨‍💻 **Abdul Basit's GitHub Profile** 🚀
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/dev-abasit)
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me&logoColor=white)](https://abdulawr.github.io/abdulawr/)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ab.basit.dak@gmail.com)
-
-## 🎯 About Me
-
-**Gold Medalist Software Engineer** | **Master's Student at Masaryk University** | **3+ Years Industry Experience**
-
-I'm a passionate full-stack engineer dedicated to crafting elegant solutions to complex problems. Currently pursuing my Master's degree while building scalable, user-centric applications that make a real impact. My expertise spans from responsive front-end interfaces to robust cloud architectures, with a proven track record of delivering high-performance solutions.
-
-```javascript
-const abdul = {
-    currentRole: "Master's Student @ Masaryk University",
-    location: "Czech Republic",
-    passions: ["Clean Code", "System Design", "Cloud Architecture", "AI Integration"],
-    currentlyLearning: ["Advanced Distributed Systems", "Machine Learning at Scale"],
-    funFact: "6x Employee of the Month Award Winner"
-};
-```
+Welcome to my GitHub profile! I'm **Abdul Basit**, a passionate and **dynamic Software Engineer** with a flair for turning ideas into impactful, user-friendly software solutions. I specialize in full-stack development, cloud services, and **DevOps** pipelines. With a **Gold Medal** in **Software Engineering** and currently pursuing my **Master’s in Software Systems**, I'm always on the lookout for new opportunities to innovate and collaborate. 💡
 
 ---
 
-## 🛠️ Tech Stack
+## 📋 **About Me** ✨
 
-### **Languages**
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
+I’m a **self-motivated** engineer skilled in building **scalable** applications using modern technologies like **React**, **Java**, **Python**, **C#**, **AWS**, and more. My passion lies in solving **real-world challenges** and making software that stands out. 
 
-### **Frontend Development**
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![HTML5](https://img.shields.io/badge/HTML5-E34C26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-
-### **Backend Development**
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
-![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
-![ASP.NET](https://img.shields.io/badge/ASP.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-
-### **Cloud & DevOps**
-![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
-![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
-![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white)
-
-### **Databases**
-![MySQL](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
+**Technologies I ❤️**:
+- **Languages**: JavaScript, Python, Java, TypeScript, PHP, C#, Kotlin, HTML, CSS
+- **Frameworks & Libraries**: ReactJS, React Native, NextJS, Laravel, Flask, Spring Boot, Quarkus
+- **Cloud & DevOps**: AWS, Azure, Firebase, Jenkins, GitHub Actions
+- **Databases & APIs**: MySQL, MongoDB, PostgreSQL, GraphQL, RESTful APIs
+- **Tools**: Git, GitHub, Docker, VS Code, Android Studio, Trello, Jira
 
 ---
 
-## 💼 Professional Journey
+## 💼 **Professional Experience** 🌍
 
-### **Software Engineer** | WAYIO Solution
-*May 2021 – August 2024 | Full-time*
+### **💻 Software Engineer** at **WAYIO Solution** (May 2021 – Aug 2024)  
+- 🚀 **Modernized legacy systems**, improving performance by **10%**.
+- 💬 Developed **real-time communication modules** (chat, video, voice) for web and mobile, increasing engagement by **30%**.
+- ⚙️ Streamlined **CI/CD pipelines** with **GitHub**, **GitLab**, and **Jenkins**.
+- 📈 Automated **testing** with **Selenium**, **Appium**, and **Cypress**, maintaining **85%+ test coverage**.
 
-#### 🏆 Key Achievements:
-- 🚀 **Modernized legacy systems**, achieving **10% performance improvement** across critical applications
-- 📱 **Architected and deployed** 5+ production-ready web and mobile applications serving **10,000+ users**
-- 🧪 **Established automated testing framework** maintaining **85%+ code coverage** using Selenium, Appium, and Cypress
-- ⚡ **Optimized CI/CD pipelines**, reducing deployment time by **30%** through GitHub Actions and Jenkins
-- 📊 **Implemented performance monitoring** with JMeter, identifying and resolving bottlenecks proactively
-
-### **Software Engineer** | I-TEK
-*January 2019 – February 2021 | Part-time Remote*
-
-#### 🏆 Key Achievements:
-- 👥 **Led development** of flagship products (CondoApp, Gensols) improving user engagement by **15%**
-- 🔒 **Enhanced platform security** by **20%** through implementation of industry best practices
-- 🔄 **Streamlined development workflow** with automated CI/CD, reducing manual deployment effort by **40%**
+### **🖥️ Software Engineer (Part-Time, Remote)** at **I-TEK** (Jan 2019 – Feb 2021)  
+- 🌍 Led the development of **CondoApp** and **Gensols**, enhancing **UX** by **15%**.
+- 🔒 Improved platform **security** by **20%** and implemented **scalable architecture** for both mobile and web apps.
 
 ---
 
-## 🚀 Featured Projects
+## 🚀 **Noteworthy Projects** 🌟
 
-### 🏦 [Financial Transaction Batch Processor](https://github.com/abdulawr/Batch-Processing-of-Financial-Transactions)
-**Enterprise-grade batch processing system for financial operations**
-- 🔧 **Tech Stack:** Spring Boot, Spring Batch, MySQL, Swagger UI
-- ✨ **Impact:** Processes 100K+ transactions daily with fraud detection
-- 🎯 **Features:** Real-time monitoring, automated reporting, RESTful API
+Explore some of the exciting projects I’ve worked on:
 
-### 🤖 [AI-Powered Resume Enhancement System](https://github.com/abdulawr/Resume-Enhancement-System)
-**Intelligent resume optimizer using advanced NLP**
-- 🔧 **Tech Stack:** Java, Spring Boot, DeepSeek AI, PDFBox
-- ✨ **Impact:** 90% ATS compatibility score improvement
-- 🎯 **Features:** Job matching, keyword optimization, professional PDF generation
+### 1. **[Batch Processing of Financial Transactions](https://github.com/abdulawr/Batch-Processing-of-Financial-Transactions)**
+   - 💻 **Tech**: Spring Boot, Spring Batch, MySQL, Swagger UI  
+   - 🏦 **Description**: A **batch processing** system designed to handle large financial transactions, validate data, and detect fraud in real time.
+   - 🔑 **Key Features**: 
+     - Efficient data handling & fraud detection
+     - Interactive API documentation using **Swagger UI**
 
-### 📈 [Real-Time Stock Trading Dashboard](https://github.com/abdulawr/Real-Time-Stock-Trading-Dashboard)
-**Live financial data visualization platform**
-- 🔧 **Tech Stack:** Spring WebFlux, WebSockets, Chart.js, Alpha Vantage API
-- ✨ **Impact:** Sub-second latency for real-time updates
-- 🎯 **Features:** Interactive charts, price alerts, portfolio tracking
+### 2. **[Resume Enhancer | Spring Boot Web App](https://github.com/abdulawr/Resume-Enhancement-System)**
+   - 📝 **Tech**: Spring Boot, DeepSeek AI, Apache Tika, PDFBox  
+   - 🎯 **Description**: An AI-powered tool that optimizes resumes based on job descriptions, ensuring **ATS optimization** and professional **PDF generation**.
 
-### 🏢 [Clemata - Enterprise Cleaning Management](https://clemata.dk/)
-**Cross-platform solution for cleaning service operations**
-- 🔧 **Tech Stack:** React, React Native, Laravel, Google Maps API
-- ✨ **Impact:** Reduced operational overhead by **20%**
-- 🎯 **Features:** Route optimization, real-time tracking, automated scheduling
+### 3. **[Real-Time Stock Trading Dashboard](https://github.com/abdulawr/Real-Time-Stock-Trading-Dashboard)**
+   - 📈 **Tech**: Spring Boot, WebFlux, WebSockets, Alpha Vantage API  
+   - 💹 **Description**: A **real-time stock trading dashboard** that streams live stock data and visualizes it with interactive charts powered by **Chart.js**.
 
-### 📊 [SMP-Direct ERP System](https://github.com/abdulawr/SMP-Direct)
-**Comprehensive enterprise resource planning solution**
-- 🔧 **Tech Stack:** React, MongoDB, Firebase, React Native
-- ✨ **Impact:** Streamlined operations for 50+ businesses
-- 🎯 **Features:** Inventory management, CRM, supply chain integration
+### 4. **[Clemata — Mobile & Web App](https://clemata.dk/)**
+   - 📱 **Tech**: React, React Native, Laravel, Google Maps  
+   - 🧹 **Description**: A cross-platform **cleaning management** app designed to streamline operations, reducing overhead by **20%**.
+
+### 5. **[SMP-Direct — ERP System](https://github.com/abdulawr/SMP-Direct)**
+   - 💼 **Tech**: React, MongoDB, Firebase, React Native  
+   - 🏢 **Description**: **ERP system** for customer and supply chain management, integrated across mobile and web platforms.
 
 ---
 
-## 🎓 Education & Achievements
+## 🎓 **Education** 🎓
 
-### 🎓 **Master's in Software Systems and Services Management**
-**Masaryk University, Czech Republic** | *2024 – Present*
-- Focus: Distributed Systems, Cloud Architecture, Service Management
-
-### 🎓 **Bachelor's in Software Engineering** 🥇
-**City University of Science and IT** | *2017 – 2021*
-- **Gold Medalist** - Top of Class
-- **Full Merit Scholarship** Recipient
-- GPA: 3.8/4.0
+- **Master’s in Software Systems and Services Management**, *Masaryk University* (2024 – Present)
+- **Bachelor’s in Software Engineering**, *City University of Science and IT* (2017 – 2021) – **Gold Medalist**
 
 ---
 
-## 📜 Professional Certifications
+## 📜 **Certifications** 🎓
 
-### ☁️ **Cloud & DevOps**
-- Oracle Java Foundations
-- Docker Essentials (IBM)
-- Agile with Atlassian Jira
+I believe in continuous learning, and here are some of the certifications that reflect my dedication to growing my skills:
 
-### 💻 **Development**
-- Advanced Java – Spring & Hibernate (LearnKartS)
-- JavaScript Essentials 1 & 2 (Cisco)
-- Python Essentials 1 & 2 (Cisco)
-- Foundational C# with Microsoft
-
-### 📊 **Data & Testing**
-- Python for Data Science (IBM)
-- R for Data Science (IBM)
-- Software Testing and Validation (University of Leeds)
-- Test Management in Software Testing
+- **📚 Oracle Java Foundations** (Oracle)
+- **📘 Advanced Java – Spring & Hibernate** (LearnKartS via Coursera)
+- **🌐 JavaScript Essentials 1 & 2, Networking Basics, Python Essentials 1 & 2** (Cisco)
+- **🧠 Python for Data Science, R for Data Science, Docker Essentials** (IBM)
+- **💻 Foundational C# with Microsoft** (freeCodeCamp)
+- **📊 Software Testing and Validation** (University of Leeds via Coursera)
+- **🧑‍🏫 Test Management in Software Testing** (Coursera Instructor Network)
+- **🔄 Agile with Atlassian Jira** (Atlassian via Coursera)
 
 ---
 
-## 🏆 Awards & Recognition
+## 🌍 **Contact Me** ✉️
 
-- 🥇 **Gold Medal** - Academic Excellence (2021)
-- ⭐ **6x Employee of the Month** - WAYIO Solution (2023-2024)
-- 💰 **Full Merit Scholarship** - City University (2017-2021)
-- 🎯 **Top Performer Award** - I-TEK (2020)
-
----
-
-## 📊 GitHub Statistics
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=abdulawr&show_icons=true&theme=radical" alt="GitHub Stats" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=abdulawr&theme=radical" alt="GitHub Streak" />
-</p>
+- 📧 **Email**: [ab.basit.dak@gmail.com](mailto:ab.basit.dak@gmail.com)
+- 🔗 **LinkedIn**: [https://www.linkedin.com/in/dev-abasit](https://www.linkedin.com/in/dev-abasit)
+- 🌐 **GitHub**: [https://github.com/abdulawr](https://github.com/abdulawr)
+- 🌍 **Portfolio**: [https://abdulawr.github.io/abdulawr/](https://abdulawr.github.io/abdulawr/)
 
 ---
 
-## 🌍 Let's Connect!
+## 🌟 **Additional Info** 🏆
 
-I'm always excited to collaborate on innovative projects and connect with fellow developers. Whether you have a challenging problem to solve or just want to discuss the latest in tech, feel free to reach out!
-
-📧 **Email:** [ab.basit.dak@gmail.com](mailto:ab.basit.dak@gmail.com)  
-💼 **LinkedIn:** [linkedin.com/in/dev-abasit](https://www.linkedin.com/in/dev-abasit)  
-🌐 **Portfolio:** [abdulawr.github.io](https://abdulawr.github.io/abdulawr/)  
-📍 **Location:** Czech Republic | Open to Remote Opportunities
+- **Languages**: Fluent in **English**, Beginner in **Czech**.
+- **Awards**: **Gold Medalist (2021)**, **6x Employee of the Month** at WAYIO (2023-2024).
+- **Scholarship**: Fully Funded Merit-Based Scholarship (City University, 2017-2021).
 
 ---
 
-<p align="center">
-  <i>⚡ "Code is like humor. When you have to explain it, it's bad." – Cory House</i>
-</p>
+## 🚀 **Let’s Connect!** 🤝
 
-<p align="center">
-  <b>Thank you for visiting my profile! Let's build something amazing together! 🚀</b>
-</p>
+I love collaborating on **open-source projects**, learning from others, and sharing knowledge. Feel free to explore my repositories, contribute, or get in touch with any questions or collaboration opportunities! 💬
+
+---
+
+### 🛠️ **Technologies & Tools I Work With**:
+
+![](https://img.shields.io/badge/JavaScript-%23F7DF1E?style=flat&logo=javascript&logoColor=white)  
+![](https://img.shields.io/badge/Java-%23E34A86?style=flat&logo=java&logoColor=white)  
+![](https://img.shields.io/badge/React-%2300d8ff?style=flat&logo=react&logoColor=white)  
+![](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white)  
+![](https://img.shields.io/badge/AWS-%23FF9900?style=flat&logo=amazonaws&logoColor=white)
+
+---
+
+### 🌟 **Thanks for visiting my profile!** 🙌  
+Let's create something amazing together! 💥
+
+---
+
+This version introduces:
+
+- **Emojis** to make the content more visually appealing and lively.
+- **More engaging sections** that emphasize your skills and projects in an exciting way.
+- **Icons** for the technologies and certifications to make the content stand out.
+- **Clear, catchy headings** and **interactive links** to projects and your contact details.
+
+This layout aims to grab attention while making it easier for users to explore your achievements and projects!
