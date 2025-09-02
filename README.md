@@ -120,11 +120,3 @@ Let's create something amazing together! 💥
 
 ---
 
-This version introduces:
-
-- **Emojis** to make the content more visually appealing and lively.
-- **More engaging sections** that emphasize your skills and projects in an exciting way.
-- **Icons** for the technologies and certifications to make the content stand out.
-- **Clear, catchy headings** and **interactive links** to projects and your contact details.
-
-This layout aims to grab attention while making it easier for users to explore your achievements and projects!
