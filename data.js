@@ -67,31 +67,31 @@
             },
 
             "projects": [
-
-                           {
-                                "name": "Healthcare Appointment Scheduling System - Enhanced Edition",
-                                "duration": "2025 - Ongoing",
-                                "company": "Masaryk University Brno",
-                                "description": "A microservices-based healthcare appointment scheduling system built using Quarkus. The system includes patient profiles, doctor availability, appointment scheduling, notification services, analytics, and payment processing. It enhances healthcare management with six independently deployable services and expanded public API endpoints.",
-                                "features": [
-                                    "Patient profile management: registration, medical history, insurance, and preferences",
-                                    "Doctor profile management: availability slots, ratings, and reviews",
-                                    "Appointment scheduling, rescheduling, and cancellation with external calendar integration",
-                                    "Multi-channel notifications for reminders and confirmations (Email, SMS, Push)",
-                                    "Billing service for invoice generation, multi-gateway payment processing (Stripe, PayPal), and insurance claims",
-                                    "Analytics for tracking appointments, cancellations, doctor utilization, and revenue"
-                                ],
-                                "technologies": [
-                                    "Quarkus (RESTEasy Reactive, Panache ORM)",
-                                    "Kafka (SmallRye Reactive Messaging)",
-                                    "PostgreSQL",
-                                    "Prometheus + Grafana",
-                                    "OpenAPI + Swagger UI",
-                                    "Stripe/PayPal SDK",
-                                    "Docker, Kubernetes"
-                                ],
-                                "github": "https://github.com/abdulawr/Healthcare-Appointment-Scheduling-System"
-                            },
+                {
+    "name": "Healthcare Appointment Scheduling System - Enhanced Edition",
+    "duration": "2025 - Ongoing",
+    "company": "Masaryk University Brno",
+    "description": "A microservices-based healthcare appointment scheduling system built using Quarkus. The system includes patient profiles, doctor availability, appointment scheduling, notification services, analytics, and payment processing. It enhances healthcare management with six independently deployable services and expanded public API endpoints.",
+    "features": [
+        "Patient profile management: registration, medical history, insurance, and preferences",
+        "Doctor profile management: availability slots, ratings, and reviews",
+        "Appointment scheduling, rescheduling, and cancellation with external calendar integration",
+        "Multi-channel notifications for reminders and confirmations (Email, SMS, Push)",
+        "Billing service for invoice generation, multi-gateway payment processing (Stripe, PayPal), and insurance claims",
+        "Analytics for tracking appointments, cancellations, doctor utilization, and revenue"
+    ],
+    "technologies": [
+        "Quarkus (RESTEasy Reactive, Panache ORM)",
+        "Kafka (SmallRye Reactive Messaging)",
+        "PostgreSQL",
+        "Prometheus + Grafana",
+        "OpenAPI + Swagger UI",
+        "Stripe/PayPal SDK",
+        "Docker, Kubernetes"
+    ],
+    "github": "https://github.com/abdulawr/Healthcare-Appointment-Scheduling-System"
+}
+                ,
                             {
                                 "name": "Batch Processing of Financial Transactions",
                                 "duration": "Mar 2025 - May 2025",
